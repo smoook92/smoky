@@ -172,6 +172,18 @@ button:hover::before {
     margin-bottom: 20px;
 }
 
+.card-img img{
+    -moz-transition: all 0.2s ease-out;
+     -o-transition: all 0.2s ease-out;
+     -webkit-transition: all 0.2s ease-out;
+}
+
+.card-img img:hover{
+    -webkit-transform: scale(1.1);
+     -moz-transform: scale(1.1);
+     -o-transform: scale(1.1);
+}
+
 .card-title{
     margin: 0;
     margin-bottom: 13px;
